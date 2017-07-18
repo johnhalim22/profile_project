@@ -1,0 +1,122 @@
+
+
+body *{
+
+  padding: 0px;
+  margin: 0px;
+}
+
+.wrapper{
+  height: 900px;
+  width: 900px;
+}
+
+.header{
+  width: 880px;
+  height: 40px;
+  padding: 10px;
+  background-color: #f6f6f6;
+}
+
+.header h2{
+  display: inline-block;
+  margin-right: 440px;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+.header h3{
+  display: inline-block;
+  font-family: 'Lato', sans-serif;
+}
+
+.main_content{
+  height: 830px;
+  width: 900px;
+  background: -webkit-radial-gradient(#6f5964, #1c0d10); /* Safari 5.1- 6.0 */
+  background: -o-radial-gradient(#6f5964, #1c0d10); /* Opera 11.6-12.0 */
+  background: -moz-radial-gradient(#6f5964, #1c0d10); /* Firefox 3.6-15 */
+  background: radial-gradient(#6f5964, #1c0d10); /* Standard syntax */
+  font-family: 'Lato', sans-serif;
+
+}
+
+.main_content img{
+  width: 400px;
+  height: auto;
+  border: 5px solid #c0c0c0;
+  margin:10px;
+}
+
+.about_me {
+  display: inline-block;
+  width: 420px;
+  margin: 7px;
+  vertical-align: top;
+  background-color: lightgray;
+  font-family: 'Lato', sans-serif;
+
+}
+.about_me h3{
+  color: white;
+  padding: 10px;
+  background: -webkit-radial-gradient(#878593, #a6a5ac); /* Safari 5.1- 6.0 */
+  background: -o-radial-gradient(#878593, #a6a5ac); /* Opera 11.6-12.0 */
+  background: -moz-radial-gradient(#878593, #a6a5ac); /* Firefox 3.6-15 */
+  background: radial-gradient(#878593, #a6a5ac); /* Standard syntax */
+}
+.about_me p, a{
+  margin: 10px;
+}
+.technologies{
+  width: 266px;
+  height: 480px;
+  display: inline-block;
+  margin: 10px;
+  background-color: lightgray;
+}
+.technologies img{
+  width: 266px;
+  border: none;
+  display: inline-block;
+  margin: 0px;
+}
+.technologies h3, h4{
+  padding: 5px;
+  color: white;
+  background: -webkit-radial-gradient(#878593, #a6a5ac); /* Safari 5.1- 6.0 */
+  background: -o-radial-gradient(#878593, #a6a5ac); /* Opera 11.6-12.0 */
+  background: -moz-radial-gradient(#878593, #a6a5ac); /* Firefox 3.6-15 */
+  background: radial-gradient(#878593, #a6a5ac); /* Standard syntax */
+}
+
+.tech_pics li{
+  display: inline-block;
+}
+
+.tech_pics img{
+  width: 30px;
+  height: 30px;
+}
+
+.technologies button{
+  padding: 5px;
+  margin-left: 103px;
+  color: white;
+  background-color: #407d61;
+  border-radius: 5px
+}
+.footer ul, li{
+  display: inline-block;
+  text-align: center;
+  font-style: italic;
+}
+.footer{
+  text-align: center;
+  background-color: #f6f6f6;
+  font-family: 'Lato', sans-serif;
+
+}
+.footer img{
+  width: 15px;
+  height: 15px;
+}
